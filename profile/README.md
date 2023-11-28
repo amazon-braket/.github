@@ -1,5 +1,5 @@
 # Welcome to the Amazon Braket GitHub organization
-[Amazon Braket](https://aws.amazon.com/braket/) is a fully managed service on Amazon Web Services (AWS) helping researchers, scientists, and developers get started with quantum computing without having to worry setting up cloud infrastructure. 
+[Amazon Braket](https://aws.amazon.com/braket/) is a fully managed service on Amazon Web Services (AWS) helping researchers, scientists, and developers get started with quantum computing without having to worry about setting up cloud infrastructure. 
 
 Quantum computing has the potential to solve computational problems beyond the reach of classical computers because it harnesses the laws of quantum mechanics to process information in new ways. 
 
