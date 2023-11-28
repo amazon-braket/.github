@@ -3,7 +3,7 @@
 
 Quantum computing has the potential to solve computational problems beyond the reach of classical computers because it harnesses the laws of quantum mechanics to process information in new ways. 
 
-A number of open-source projects have been built ontop of Amazon Braket established. On this page you find starting point to discover these artifacts and how you can contribute to our quantum computing community! 
+A number of open-source projects have been built on top of Amazon Braket established. On this page you find starting point to discover these artifacts and how you can contribute to our quantum computing community! 
 
 # Amazon Braket fully supported repositories
 We aim to respond within few days for PRs and Issues raised in fully supported GitHub repositories. Customers can find these repositories installed on Amazon Braket Notebook Instances or on AWS managed containers for [Amazon Braket Hybrid Jobs](https://docs.aws.amazon.com/braket/latest/developerguide/braket-jobs-use.html).
