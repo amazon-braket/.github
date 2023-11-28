@@ -8,7 +8,7 @@ A number of open-source projects have been built on top of Amazon Braket establi
 # Amazon Braket fully supported repositories
 We aim to respond within a few days for PRs and Issues raised in fully supported GitHub repositories. Customers can find these repositories installed on Amazon Braket Notebook Instances or on AWS managed containers for [Amazon Braket Hybrid Jobs](https://docs.aws.amazon.com/braket/latest/developerguide/braket-jobs-use.html).
 
-* [Braket Python SDK](https://github.com/amazon-braket/amazon-braket-sdk-python) - Is a coding interface for quantum computing devices on Amazon Braket
+* [Braket Python SDK](https://github.com/amazon-braket/amazon-braket-sdk-python) - Provides a coding interface for quantum computing devices on Amazon Braket
 * [Braket Examples](https://github.com/amazon-braket/amazon-braket-examples) - Contains tutorials on quantum computing with Amazon Braket
 * [PennyLane-Braket Plugin](https://github.com/amazon-braket/amazon-braket-pennylane-plugin-python) - Enables PennyLane code to run on Amazon Braket
 * [Qiskit-Braket Plugin](https://github.com/qiskit-community/qiskit-braket-provider) - Enables Qiskit code to run on Amazon Braket
