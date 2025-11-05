@@ -41,9 +41,9 @@ If your work uses Amazon Braket, please include the following acknowledgment sta
 Cite us with the following BibTeX:
 ```latex
 @misc{braket2019,
-    title   = {{Amazon Braket: a fully managed quantum computing service provided by AWS}},
-    author  = {Braket Developers},
-    year    = {2019},
-    url     = {https://aws.amazon.com/braket/}, 
+      title  = {{Amazon Braket: a fully managed quantum computing service provided by AWS}},
+      author = {Braket Developers},
+      year   = {2019},
+      url    = {https://aws.amazon.com/braket/}, 
 }
 ```
