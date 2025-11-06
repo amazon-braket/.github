@@ -22,6 +22,7 @@ We welcome community contributions for Amazon Braket and are excited to highligh
 
 * [Amazon Braket Labs](https://github.com/amazon-braket/amazon-braket-labs) - Is a catalog of examples, tools and applications built on-top of Amazon Braket
 
+
 # Frequently Asked Questions (FAQs)
 * Does code written for Braket have to use the Amazon Braket Python SDK?
   * No, Braket offers simple APIs for a range of programming languages (C++, JavaScript, and more). The Braket service also accepts OpenQASM 3 as the payload for quantum devices. The benefit of integrating with the Amazon Braket Python SDK is that the Python package provides convenience methods for building OpenQASM programs (such as a circuit class) as well as integrations with AWS sessions. We also offer an experimental version of [the Amazon Braket SDK in Julia](https://github.com/amazon-braket/Braket.jl).
@@ -31,3 +32,18 @@ We welcome community contributions for Amazon Braket and are excited to highligh
     * Braket containers are Docker containers that define the runtime environment for an Amazon Braket hybrid job. They allow you to run custom code as part of a co-processing hybrid jobs between a CPU or QPU and a quantum device. AWS [supports a fixed set of containers](https://docs.aws.amazon.com/braket/latest/developerguide/braket-jobs-script-environment.html) and provides regular software updates for feature and security reasons. Minor adjustments to the runtime environment can be done by using the Braket base container and adding [a requirements.txt file](https://docs.aws.amazon.com/braket/latest/developerguide/braket-hybrid-job-decorator.html#install-python-packages-and-code). If the runtime environment is very different from what Braket containers offer you can [bring your own container](https://docs.aws.amazon.com/braket/latest/developerguide/braket-jobs-byoc.html).
 * Is it a requirement to have an AWS account to contribute or to make use of the Amazon Braket repositories?
   * You may find the repositories useful without an AWS account but will need an AWS account to actually use the repositories to run on quantum computing hardware. As stand-alone you can for instance use the Amazon Braket SDK to construct quantum circuits and translate them to OpenQASM 3 (see [example](https://github.com/amazon-braket/amazon-braket-examples/blob/main/examples/braket_features/Getting_Started_with_OpenQASM_on_Braket.ipynb)). It is also possible to develop minor code contributions for the repositories without an AWS account but in most cases we recommend you use an account.
+
+# Acknowledgment and Citation
+
+If your work uses Amazon Braket, please include the following acknowledgment statement:
+> We acknowledge the use of Amazon Braket service for this work. The views expressed are those of the authors and do not reflect the official policy or position of the Braket team.
+
+Cite us with the following BibTeX:
+```latex
+@misc{braket2019,
+      title  = {{Amazon Braket: a fully managed quantum computing service provided by AWS}},
+      author = {Braket Developers},
+      year   = {2019},
+      url    = {https://aws.amazon.com/braket/}, 
+}
+```
