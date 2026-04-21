@@ -11,7 +11,7 @@ We aim to respond within a few days for PRs and Issues raised in fully supported
 * [Braket Python SDK](https://github.com/amazon-braket/amazon-braket-sdk-python) - Provides a coding interface for quantum computing devices on Amazon Braket
 * [Braket Examples](https://github.com/amazon-braket/amazon-braket-examples) - Contains tutorials on quantum computing with Amazon Braket
 * [PennyLane-Braket Plugin](https://github.com/amazon-braket/amazon-braket-pennylane-plugin-python) - Enables PennyLane code to run on Amazon Braket
-* [Qiskit-Braket Plugin](https://github.com/qiskit-community/qiskit-braket-provider) - Enables Qiskit code to run on Amazon Braket
+* [Qiskit-Braket Plugin](https://github.com/amazon-braket/qiskit-braket-provider) - Enables Qiskit code to run on Amazon Braket
 * [Braket Algorithm Library](https://github.com/amazon-braket/amazon-braket-algorithm-library/tree/main) - Contains community and first party implementations of quantum algorithms
 * [Braket Containers](https://github.com/amazon-braket/amazon-braket-containers/tree/main) - Offers a set of managed docker containers for hybrid jobs and a starting point for building custom containers
 * [Braket Default Simulators](https://github.com/amazon-braket/amazon-braket-default-simulator-python) - Provides an implementation of quantum simulators that can run locally
